@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
     } else {
       let link = document.createElement("link");
       link.rel = "stylesheet";
-      link.href = "../css/alt.css";
+      link.href = "/css/alt.css";
       link.id = "alt-theme";
 
       document.head.appendChild(link);
